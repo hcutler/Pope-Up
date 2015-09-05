@@ -1,7 +1,6 @@
 body {
     font-family: "Open Sans",sans-serif;
     font-weight: 300;
-    overflow-x: hidden;
     text-rendering: optimizeLegibility;
 }
 
@@ -44,4 +43,19 @@ body {
 .navbar-default .navbar-nav>li>a:hover {
 	background-color: rgba(0, 0, 0, 0);
 	border-color: rgba(0, 0, 0, 0);
+}
+
+/* Carousel sytling */
+.carousel-control, .carousel-control:focus {
+	color: black;
+	opacity: 0.6;
+}
+
+.carousel-control:hover {
+	color: black;
+	opacity: 0.8;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
 }
