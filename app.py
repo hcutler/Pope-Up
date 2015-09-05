@@ -5,8 +5,10 @@ app = Flask(__name__)
 app.config.from_object('config')
 
 @app.route("/")
-def hello():
+def index():
 	form = IssuesForm()
+	if form.validate_on_submit():
+		return redirect('/issues')
 	return render_template("home.html", form=form)
 
 @app.route("/issues")
