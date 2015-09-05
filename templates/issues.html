@@ -1,40 +1,53 @@
 {% extends "base.html" %}
 {% block title %}Issues{% endblock %}
 {% block head %}
-	{{ super() }}
+{{ super() }}
 {% endblock %}
 {% block content %}
 <h1>You care about <u>environment</u> and <u>poverty</u>.</h1>
 
 <h2>Here's what Philly's doing about these issues:</h2>
 
-<h2>Organizations</h2>
-<ul>
-	<li>
-		<p>test<p>
-	</li>
-</ul>
+<section class="issue" data-issue="environment">
+	<h1>Environment</h1>
+	<h2>Organizations</h2>
+	<ul class="issue-orgs">
+	</ul>
 
-<h2>Initiatives</h2>
-<ul>
-	<li>
-		<p>test<p>
-	</li>
-</ul>
-{% endblock %}
+	<h2>Initiatives</h2>
+	<ul class="issue-inits"> 
+	</ul>
+</section>
 
+<section class="issue" data-issue="poverty">
+	<h1>Poverty</h1>
+	<h2>Organizations</h2>
+	<ul class="issue-orgs">
+	</ul>
 
-<!-- 
+	<h2>Initiatives</h2>
+	<ul class="issue-inits"> 
+	</ul>
+</section>
+
 <script>
+	var issues = $('.issue').map(function () {return $(this).data('issue')});
 
-$(document).ready(function() {
-  var jsonp = 'issues.json'
-  var lang = '';
-  var obj = $.parseJSON(jsonp);
-  $.each(obj, function() {
-	lang += this['Lang'] + "<br/>";
-  });
-  $('span').html(lang);
-});​
+	$(document).ready(function () {
+		var request = $.get('/data/issues.json');
 
-</script> -->
+		request.done(function (data) {
+			$.each(issues, function (i, e) {
+				var issue_data = data[e];
+
+				$.each(issue_data['organizations'], function (i, org) {
+					var issue_section = $('.issue').filter('[data-issue="' + e + '"]');
+					issue_section.find('.issue-orgs').append($('<li>' + org['name'] + '</li>'));
+				})
+			});
+		});
+	});
+
+</script>
+
+{% endblock %}

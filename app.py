@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_from_directory
 from form import IssuesForm, UserDataForm
 
 app = Flask(__name__)
@@ -15,5 +15,9 @@ def index():
 def issues():
 	return render_template("issues.html", form=request.form)
 
+@app.route('/data/<path:path>')
+def send_data(path):
+	return send_from_directory('data', path)
+
 if __name__ == "__main__":
-    app.run(debug=True)
+	app.run(debug=True)
