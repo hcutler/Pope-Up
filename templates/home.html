@@ -1,28 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-  {% block head %}
-	<title>Pope Up</title>
-  {% endblock %}
-</head>
+{% extends "base.html" %}
 
-<body>
+{% block content %}
+<p>Welcome. You're coming to Philly to see the Pope? The Pope cares about a lot of issues. Like:</p>
 
-  {% block content %}
-	<p>Welcome. You're coming to Philly to see the Poope? The Pope cares about a lot of issues. Like:</p>
+<form>
+	<input type="radio" name="environment" value="True" checked>Environment
+	<input type="radio" name="lgbtq" value="True">LGBTQ
+	<input type="radio" name="immigration" value="True">Immigration
+	<input type="radio" name="poverty" value="True">Poverty
 
-	<form>
-		<input type="radio" name="environment" value="True" checked>Environment
-		<input type="radio" name="lgbtq" value="True">LGBTQ
-		<input type="radio" name="immigration" value="True">Immigration
-		<input type="radio" name="poverty" value="True">Poverty
+	<p>Check off what <u>you</u> are interested about and learn a little about how Philly is working on these issues.</p>
 
-		<p>Check off what <u>you</u> are interested about and learn a little about how Philly is working on these issues.</p>
-
-		<input type="submit" value="Submit">
-	</form>
-  {% endblock %}
-
-</body>
-
-</html>
+	<input type="submit" value="Submit">
+</form>
+{% endblock %}
