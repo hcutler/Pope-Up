@@ -1,8 +1,17 @@
 {% extends "base.html" %}
 
-{% block content %}
-<p>Welcome. You're coming to Philly to see the Pope? The Pope cares about a lot of issues. Like:</p>
+<!-- {% block head %} 
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+{% endblock %} -->
 
+{% block content %}
+<div class="container">
+<div class="row">
+<p>Welcome. You're coming to Philly to see the Pope? The Pope cares about a lot of issues. Like:</p>
+</div>
+
+
+<div class="row">
 
 <form method="POST" action="/issues" name="issue_form">
 	{{ form.csrf_token }}
@@ -15,4 +24,6 @@
 
 	<input type="submit" value="Submit">
 </form>
+</div>
+</div>
 {% endblock %}
