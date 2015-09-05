@@ -1,0 +1,95 @@
+{
+    "environment" : {
+        "description" : "Let's make the world greener.",
+        
+        "organizations" : [
+            {
+                "name" : "Clean Air Council (CAC)",
+                "description" : "About the CAC",
+                "link" : "LINK HERE"
+            }
+            {
+                "name" : "Greater Philadelphia Environmental Network (GPEN)",
+                "description" : "About GPEN",
+                "link" : "LINK HERE"
+
+            }
+            {
+                "name" : "Philadelphia Gas Works (PGW)",
+                "description" : "About PGW",
+                "link" : "LINK HERE"
+            }
+        ]
+    },
+    "lgbtq" : {
+        "description" : "Gender equality for all.",
+
+        "organizations" : [
+            {
+                "name" : "lgbtq organization 1",
+                "description" : "About org 1",
+                "link" : "LINK HERE"
+            }
+            {
+                "name" : "lgbtq organization 2",
+                "description" : "About org 2",
+                "link" : "LINK HERE"
+
+            }
+            {
+                "name" : "lgbtq organization 3",
+                "description" : "About org 3",
+                "link" : "LINK HERE"
+            }
+        ]
+
+    },
+    "poverty" : {
+        "description" : "Reduce poverty levels.",
+
+        "organizations" : [
+            {
+                "name" : "poverty organization 1",
+                "description" : "About org 1",
+                "link" : "LINK HERE"
+            }
+            {
+                "name" : "poverty organization 2",
+                "description" : "About org 2",
+                "link" : "LINK HERE"
+
+            }
+            {
+                "name" : "poverty organization 3",
+                "description" : "About org 3",
+                "link" : "LINK HERE"
+            }
+        ]
+
+    },
+    "immigration" : {
+        "description" : "Moving away from attitudes of defensiveness and fear, indifference and marginalization.",
+
+        "organizations" : [
+            {
+                "name" : "immigration organization 1",
+                "description" : "About org 1",
+                "link" : "LINK HERE"
+            }
+            {
+                "name" : "immigration organization 2",
+                "description" : "About org 2",
+                "link" : "LINK HERE"
+            }
+            {
+                "name" : "immigration organization 3",
+                "description" : "About org 3",
+                "link" : "LINK HERE"
+            }
+        ]
+
+
+
+    }
+
+}
