@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% block head %}
+	<title>{% block title} {% endblock %}</title>
+	{% endblock %}
+
+</head>
+
+<body>
+	<div id="header"> {% block header}
+	<h1>Pope Up</h1>
+
+	<ul>
+		<li>
+			<h3>Home</h3>
+		</li>
+		<li>
+			<h3>About</h3>
+		</li>
+		<li>
+			<h3>Resources</h3>
+		</li>
+		<li>
+			<h3>Contact Us</h3>
+		</li>
+	</ul>
+		{% endblock %}
+	</div>
+
+	<div id="content">{% block content %}{% endblock %}</div>
+    <div id="footer">
+      {% block footer %}
+      Thanks for checking out Pope-Up!
+      {% endblock %}
+    </div>
+
+</body>
+
+</html>
+
