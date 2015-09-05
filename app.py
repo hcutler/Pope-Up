@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from form import IssuesForm, UserDataForm
 
 app = Flask(__name__)
@@ -11,9 +11,9 @@ def index():
 		return redirect('/issues')
 	return render_template("home.html", form=form)
 
-@app.route("/issues")
+@app.route("/issues", methods=['GET', 'POST'])
 def issues():
-	return render_template("issues.html")
+	return render_template("issues.html", form=request.form)
 
 if __name__ == "__main__":
     app.run(debug=True)
