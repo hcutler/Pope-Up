@@ -3,12 +3,18 @@
 {% block content %}
 <p>Welcome. You're coming to Philly to see the Pope? The Pope cares about a lot of issues. Like:</p>
 
+
 <form>
-	<input type="radio" name="environment" value="True" checked>Environment
+	{{ form.environment }} Environment
+	{{ form.lgbtq }} LGBTQ
+	{{ form.poverty }} Poverty
+	{{ form.immigration }} Immigration
+
+<!-- 	<input type="radio" name="environment" value="True" checked>Environment
 	<input type="radio" name="lgbtq" value="True">LGBTQ
 	<input type="radio" name="immigration" value="True">Immigration
 	<input type="radio" name="poverty" value="True">Poverty
-
+ -->
 	<p>Check off what <u>you</u> are interested about and learn a little about how Philly is working on these issues.</p>
 
 	<input type="submit" value="Submit">
