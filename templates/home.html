@@ -1,23 +1,32 @@
 {% extends "base.html" %}
 
-<!-- {% block head %} 
+{% block head %} 
+{{ super() }}
 <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
-{% endblock %} -->
+{% endblock %}
 
 {% block content %}
-<div class="container">
-<div class="row">
+<div class="container">	
+
+<div class="row">	
 <p>Welcome. You're coming to Philly to see the Pope? The Pope cares about a lot of issues. Like:</p>
 </div>
 
 
 <div class="row">
 
+
 <form>
-	{{ form.environment }} Environment
-	{{ form.lgbtq }} LGBTQ
-	{{ form.poverty }} Poverty
-	{{ form.immigration }} Immigration
+	<div id="formParent">
+		<div id="formElements">
+			<p>{{ form.environment }} Environment</p>
+			<p>{{ form.lgbtq }} LGBTQ</p>
+			<p>{{ form.poverty }} Poverty</p>
+			<p>{{ form.immigration }} Immigration</p>
+		</div>
+	</div>
+
+
 
 <!-- 	<input type="radio" name="environment" value="True" checked>Environment
 	<input type="radio" name="lgbtq" value="True">LGBTQ
@@ -28,6 +37,9 @@
 
 	<input type="submit" value="Submit">
 </form>
+
+
+
 </div>
 </div>
 {% endblock %}
