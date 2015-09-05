@@ -1,0 +1,61 @@
+body {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+#popeup {
+	text-align: center;
+	font-size: 96px;
+	color: rgb(233, 0, 0);
+}
+
+#popeup span {
+	color: rgb(255, 189, 0);
+}
+
+/* Navbar styling */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-default {
+	background-color: rgba(0, 0, 0, 0);
+	border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-size: 24px;
+	color: black;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: black;
+	opacity: 0.8;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	background-color: rgba(0, 0, 0, 0);
+	border-color: rgba(0, 0, 0, 0);
+}
+
+/* Carousel sytling */
+.carousel-control, .carousel-control:focus {
+	color: black;
+	opacity: 0.6;
+}
+
+.carousel-control:hover {
+	color: black;
+	opacity: 0.8;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+}
