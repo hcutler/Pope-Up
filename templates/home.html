@@ -1,8 +1,16 @@
 {% extends "base.html" %}
 
-{% block content %}
-<p>Welcome. You're coming to Philly to see the Pope? The Pope cares about a lot of issues. Like:</p>
+<!-- {% block head %} 
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+{% endblock %} -->
 
+{% block content %}
+<div class="container">
+<div class="row">
+<p>Welcome. You're coming to Philly to see the Pope? The Pope cares about a lot of issues. Like:</p>
+</div>
+
+<div class="row">
 <form>
 	<input type="radio" name="environment" value="True" checked>Environment
 	<input type="radio" name="lgbtq" value="True">LGBTQ
@@ -13,4 +21,6 @@
 
 	<input type="submit" value="Submit">
 </form>
+</div>
+</div>
 {% endblock %}
