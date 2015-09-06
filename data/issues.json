@@ -5,19 +5,19 @@
         "organizations" : [
             {
                 "name" : "Clean Air Council (CAC)",
-                "description" : "About the CAC",
-                "link" : "LINK HERE"
+                "description" : "The Clean Air Council is a member-supported, nonprofit environmental organization dedicated to protecting everyone's right to breathe clean air. The Council works through public education, community advocacy, and government oversight to ensure enforcement of environmental laws.",
+                "link" : "www.cleanair.org"
             },
             {
-                "name" : "Greater Philadelphia Environmental Network (GPEN)",
-                "description" : "About GPEN",
-                "link" : "LINK HERE"
+                "name" : "Pennsylvania Environmental Council (PEC)",
+                "description" : "The Pennsylvania Environmental Council (PEC) protects and restores the natural and built environments through innovation, collaboration, education and advocacy. PEC believes in the value of partnerships with the private sector, government, communities and individuals to improve the quality of life for all Pennsylvanians.",
+                "link" : "http://pecpa.org/"
 
             },
             {
                 "name" : "Philadelphia Gas Works (PGW)",
-                "description" : "About PGW",
-                "link" : "LINK HERE"
+                "description" : "PGW is the largest municipally owned gas utility in the country. We manage and maintain a system of over 6,000 miles of gas mains and service pipes that deliver an annual 78 billion cubic feet of safe, reliable natural gas to our 500,000 customers each year.",
+                "link" : "http://www.pgworks.com/"
             }
         ]
     },
@@ -26,20 +26,20 @@
 
         "organizations" : [
             {
-                "name" : "lgbtq organization 1",
-                "description" : "About org 1",
-                "link" : "LINK HERE"
+                "name" : "William Way LGBT Community Center",
+                "description" : "The William Way Community Center encourages, supports, and advocates for the well-being and acceptance of sexual and gender minorities in the Greater Philadelphia region through service, recreational, educational, and cultural programming.",
+                "link" : "http://www.waygay.org/"
             },
             {
-                "name" : "lgbtq organization 2",
-                "description" : "About org 2",
-                "link" : "LINK HERE"
+                "name" : "The Attic Youth Center",
+                "description" : "The Attic Youth Center is the only organization in Philadelphia exclusively serving lesbian, gay, bisexual, transgender, and questioning (LGBTQ) youth. The Attic’s goal is to reduce the isolation felt by LGBTQ youth by providing a sense of community and developing programs and services to counteract the prejudice and oppression that LGBTQ youth often face.",
+                "link" : "https://www.atticyouthcenter.org/"
 
             },
             {
-                "name" : "lgbtq organization 3",
-                "description" : "About org 3",
-                "link" : "LINK HERE"
+                "name" : "Philadelphia Family Pride",
+                "description" : "A non-profit, volunteer run, membership organization for LGBT parents, prospective parents and their children in the greater Philadelphia region.",
+                "link" : "http://philadelphiafamilypride.org/"
             }
         ]
 
@@ -49,20 +49,20 @@
 
         "organizations" : [
             {
-                "name" : "poverty organization 1",
-                "description" : "About org 1",
-                "link" : "LINK HERE"
+                "name" : "Shared Prosperity Philadelphia",
+                "description" : "Shared Prosperity Philadelphia is the first step in creating and implementing a comprehensive strategy to address poverty in Philadelphia. Persistent poverty threatens our city’s future in numerous ways. It exacts a continuing toll in terms of lost tax revenue and high demand for city services. Worse, it deprives us of the potential contributions of thousands of our citizens.",
+                "link" : "http://sharedprosperityphila.org/"
             },
             {
-                "name" : "poverty organization 2",
-                "description" : "About org 2",
-                "link" : "LINK HERE"
+                "name" : "Project HOME",
+                "description" : "The mission of the Project HOME community is to empower adults, children, and families to break the cycle of homelessness and poverty, to alleviate the underlying causes of poverty, and to enable all of us to attain our fullest potential as individuals and as members of the broader society. We strive to create a safe and respectful environment where we support each other in our struggles for self-esteem, recovery, and the confidence to move toward self-actualization.",
+                "link" : "https://projecthome.org/"
 
             },
             {
-                "name" : "poverty organization 3",
-                "description" : "About org 3",
-                "link" : "LINK HERE"
+                "name" : "Philabundance",
+                "description" : "There are three quarters of a million people in our service area who face hunger every day. Their stories are as diverse as the nine counties served by Philabundance: working families hit hard by the recession, women and children, seniors trying to make ends meet. The one thing they have in common is being part of a food system that desperately needs additional support. Astonishingly, more than a quarter of the food in the United States goes to waste each year. Within the Delaware Valley, Philabundance has experienced 24 percent more people coming to us for food compared to last year.",
+                "link" : "http://www.philabundance.org/"
             }
         ]
 
@@ -72,19 +72,19 @@
 
         "organizations" : [
             {
-                "name" : "immigration organization 1",
-                "description" : "About org 1",
-                "link" : "LINK HERE"
+                "name" : "Nationalities Services Center (NSC)",
+                "description" : "Nationalities Service Center (NSC) is a non-profit organization that provides social, educational and legal services to immigrants and refugees in the Greater Philadelphia area. Our strength lies in the diversity of our clients and services. Since NSC’s founding in 1921, our mission has been to help immigrants and refugees participate fully in American society. Each year, we help approximately 4,000 individuals from over 90 countries.",
+                "link" : "http://www.nationalitiesservice.org/"
             },
             {
-                "name" : "immigration organization 2",
-                "description" : "About org 2",
-                "link" : "LINK HERE"
+                "name" : "Pennsylvania Immigration and Citizenship Coalition",
+                "description" : "The Pennsylvania Immigration and Citizenship Coalition (PICC) is a diverse group that brings together professionals, advocates and immigrant groups of different backgrounds to share information and resources, identify common problems, and advocate for solutions.",
+                "link" : "paimmigrant.org"
             },
             {
-                "name" : "immigration organization 3",
-                "description" : "About org 3",
-                "link" : "LINK HERE"
+                "name" : "The Children's Advocacy Project of Philadelphia",
+                "description" : "The mission of The Children’s Advocacy Project (CAP) is to help bridge the gap between the many quality social service agencies in the Philadelphia area and the families that need their help the most. To bridge this gap, we aim to empower and to inform those that care for the children of Philadelphia through this web site. The CAP will assist families, health care professionals, and social service providers by furnishing the tools necessary to connect families in need to the appropriate social service agencies that serve them.",
+                "link" : "http://cap4kids.org/philadelphia/parent-handouts/immigration-refugee-services/"
             }
         ]
 
